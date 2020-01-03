@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="A complete software solution for schools" />
+    <meta name="author" content="H. Rüger" />
     <title>AGSuite - A software solution for school events</title>
-</head>
-<body>
-</body>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link href="./main.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <section class="bg-darkblue fixed-top">
+      <div class="container py-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue">
+          <a class="navbar-brand" href="index.php">AGSuite</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/hrueger/AGSuite">GitHub</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <header class="bgimg text-center d-flex">
+      <div class="container my-auto">
+        <div class="mt-5 row">
+          <div class="col mx-auto">
+            <span class="font-weight-bold display-2">AGSuite</span><br>
+            <h2>The complete software suite for school events</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="d-flex bg-white">
+      <div class="container-fluid" id="programs">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 mt-5 shadow-sm">
+                <img src="./assets/logos/AGView.png" class="card-img-top" alt="AGView Logo">
+                <div class="card-body">
+                    <h5 class="card-title">AGView</h5>
+                    <p class="card-text">The event video player.</p>
+                </div>
+                <ul class="mt-4 list-group list-group-flush text-left">
+                    <li class="list-group-item"><i class="fas fa-check"></i> Play different videos in fullscreen</li>
+                    <li class="list-group-item"><i class="fas fa-check"></i> Seemless transitions</li>
+                    <li class="list-group-item">*in developement</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card mb-4 mt-5 shadow-sm">
+                <img src="./assets/logos/AGLight.png" class="card-img-top" alt="AGLight Logo">
+                <div class="card-body">
+                    <h5 class="card-title">AGLight</h5>
+                    <p class="card-text">The event video player.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card mb-4 shadow-sm card-bigger">
+                <img src="./assets/logos/AGM-Tools.png" class="card-img-top" alt="AGM-Tools Logo">
+                <div class="card-body">
+                    <h5 class="card-title">AGM-Tools</h5>
+                    <p class="card-text">The event video player.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card mb-4 mt-5 shadow-sm">
+                <img src="./assets/logos/AGBooks.png" class="card-img-top" alt="AGBooks Logo">
+                <div class="card-body">
+                    <h5 class="card-title">AGBooks</h5>
+                    <p class="card-text">The event video player.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <div class="card mb-4 mt-5 shadow-sm">
+                <img src="./assets/logos/AGSki.png" class="card-img-top" alt="AGSki Logo">
+                <div class="card-body">
+                    <h5 class="card-title">AGSki</h5>
+                    <p class="card-text">The event video player.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="bg-dark">
+      <div class="container">
+        <footer class="footer">
+          <p>
+            <a class="btn btn-link text-white" href="https://github.com/hrueger">&copy; 2017-2020, H. Rüger</a>
+          </p>
+        </footer>
+      </div>
+    </section>
+  </body>
 </html>
