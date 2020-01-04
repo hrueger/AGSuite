@@ -52,3 +52,8 @@
     background-color: #2b669a;
     height: 3px;
   }
+
+  .language-icon {
+      width: 30px;
+      margin-right: 2px;
+  }
