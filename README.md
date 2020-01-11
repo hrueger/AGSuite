@@ -5,3 +5,5 @@ See [https://hrueger.github.io/AGSuite](https://hrueger.github.io/AGSuite) for a
 
 ## License
 MIT
+
+Logos created by Leo Fruijtier.
